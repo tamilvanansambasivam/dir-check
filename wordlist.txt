@@ -1,0 +1,13 @@
+admin
+login
+dashboard
+uploads
+images
+js
+css
+config
+backup
+test
+old
+hidden
+server-status
