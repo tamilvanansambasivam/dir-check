@@ -1,7 +1,7 @@
 import requests
 
 # Ask for domain only (no scheme)
-domain = input("Enter domain (e.g., example.com): ").strip()
+domain = input("Enter domain (e.g., example.com): ").strip().strip("/")
 
 # Build base URL with https
 base_url = f"https://{domain}".rstrip("/")
